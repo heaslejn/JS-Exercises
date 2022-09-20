@@ -14,6 +14,6 @@ describe(`4. logical operators`, function () {
     expect(logicalOperatorsAnswers.and(false, false)).toBeFalsy();
     expect(logicalOperatorsAnswers.and(true, false)).toBeFalsy();
     expect(logicalOperatorsAnswers.and(true, true)).toBeTruthy();
-    expect(logicalOperatorsAnswers.and(3, 4)).toBeTruthy();
+    expect(logicalOperatorsAnswers.and(3, 4)).toBeFalsy();
   });
 });
