@@ -1,5 +1,3 @@
-const { add } = require(`./1.numbers`);
-
 /**
  * IndexOf: you should be able to determine the location of an item in an array
  * Example: 
